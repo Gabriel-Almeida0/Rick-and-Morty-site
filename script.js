@@ -10,7 +10,7 @@ let Status
 let Species
 let Gender
 
-function criabt(container, functions, contagem, limite, total, tipo) {
+function criabt(container, functions, contagem, total, tipo) {
     let bt = document.getElementById(`bt-carregar-${tipo.toLowerCase()}`);
     if (!bt && contagem <= total) {
         bt = document.createElement('button');
